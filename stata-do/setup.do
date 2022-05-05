@@ -4,6 +4,12 @@
 
 clear all
 
+// Directory (Ezgi)
+global wid_dir "C:/Users/Amory/Dropbox/W2ID"
+global project_dir "C:/Users/cemun/Research_local/wid-world"
+global r_dir "C:\Program Files\R\R-3.4.1\bin\i386/R.exe"
+
+/*
 // Directory (Gethin / Blanchet / Myczkowski)
 if substr("`c(pwd)'",1,10)=="C:\Users\A"{
 	global wid_dir "C:/Users/Amory/Dropbox/W2ID"
@@ -38,7 +44,7 @@ if substr("`c(pwd)'",1,20)=="/Users/rowaidakhaled"{
 	global wid_dir "/Users/rowaidakhaled/Dropbox/WIL/W2ID"
 	global project_dir "/Users/rowaidakhaled/Documents/GitHub/wid-world"
 }
-
+*/
 
 // WID folder directory
 *global wid_dir "/Users/thomasblanchet/Dropbox/W2ID" // Thomas Blanchet
